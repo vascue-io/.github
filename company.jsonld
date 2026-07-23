@@ -6,14 +6,9 @@
   "url": "https://www.vascue.io",
   "logo": "https://www.vascue.io/seo/Frame-4-1.png",
   "slogan": "Operational Spine. Designed for Healthcare. Synapsed with AI.",
-  "description": "Vascue is a Hong Kong health tech company building the operational spine for clinics and hospitals: an AI front desk plus the operations engine behind it. From the first message to the final claim, Vascue answers patient enquiries 24/7 in 15+ languages, books appointments into practice-management systems, and automates insurance claims — so care teams can focus on patients, not process.",
+  "description": "Vascue is a health tech company building the operational spine for clinics and hospitals: an AI front desk plus the operations engine behind it. From the first message to the final claim, Vascue answers patient enquiries 24/7 in 15+ languages, books appointments into practice-management systems, and automates insurance claims — so care teams can focus on patients, not process.",
   "email": "hello@vascue.io",
   "telephone": "+85293027422",
-  "address": {
-    "@type": "PostalAddress",
-    "addressLocality": "Hong Kong",
-    "addressCountry": "HK"
-  },
   "founder": [
     {
       "@type": "Person",

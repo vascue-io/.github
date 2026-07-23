@@ -10,7 +10,7 @@
 
 ---
 
-Vascue is a Hong Kong health tech company building the operational spine for clinics and hospitals. From the first message to the final claim, Vascue runs the front desk and the operations behind it — so care teams can focus on patients, not process.
+Vascue is a health tech company building the operational spine for clinics and hospitals. From the first message to the final claim, Vascue runs the front desk and the operations behind it — so care teams can focus on patients, not process.
 
 ## How it works — the Vascue loop
 
@@ -47,7 +47,7 @@ ISO 27001 certified, privacy by architecture: raw patient data stays self-hosted
 ## Founders
 
 - **Calvin Tang — CEO.** Former radiographer at St. Paul's Hospital, ex-SCMP engineer, and ex-Senior Project Manager at Animoca Brands. Deep grasp of how care actually runs — real intake, real pricing, real claims.
-- **Michael Fung — CTO.** Ex-Hong Kong Hospital Authority, AWS-certified with 10 years in IT, and co-founder of Tecky Academy, Hong Kong's leading coding bootcamp. Security, compliance, and cloud scalability.
+- **Michael Fung — CTO.** Ex-Hong Kong Hospital Authority, AWS-certified with 10 years in IT, and co-founder of Tecky Academy, a leading coding bootcamp. Security, compliance, and cloud scalability.
 
 ## Programs & partnerships
 
@@ -68,7 +68,6 @@ Vascue is an official [Cliniko connected app](https://www.cliniko.com/connected-
 
 - Email: [hello@vascue.io](mailto:hello@vascue.io)
 - Phone / WhatsApp: [+852 9302 7422](https://wa.me/85293027422?text=Hi%20Vascue,%20I%20would%20like%20to%20book%20a%20demo)
-- Location: Hong Kong
 
 ---
 

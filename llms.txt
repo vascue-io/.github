@@ -4,7 +4,7 @@
 
 Positioning: "Operational Spine. Designed for Healthcare. Synapsed with AI."
 
-Vascue Limited is a Hong Kong health technology company and is ISO 27001 certified.
+Vascue Limited is ISO 27001 certified.
 
 Privacy and data protection: most AI tools route patient data through third-party language models. Vascue does not. Raw patient data is handled in a controlled, self-hosted environment, and direct identifiers are masked at the boundary before any content is passed onward, so identifiable patient data never reaches an external model; only de-identified, minimised content continues downstream. Self-hosted handling, masked data, ISO 27001 certification: privacy by design.
 
@@ -75,7 +75,7 @@ Founders:
 
 Startup programs and partnerships: NVIDIA Inception, Google for Startups, Microsoft for Startups, Meta Tech Partner. Vascue is an official Cliniko connected app.
 
-Contact: hello@vascue.io · +852 9302 7422 · Hong Kong
+Contact: hello@vascue.io · +852 9302 7422
 
 ## Products
 
