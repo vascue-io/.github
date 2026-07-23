@@ -2,6 +2,7 @@
   "@context": "https://schema.org",
   "@type": "Organization",
   "name": "Vascue",
+  "legalName": "Vascue Limited",
   "url": "https://www.vascue.io",
   "logo": "https://www.vascue.io/seo/Frame-4-1.png",
   "slogan": "AI Front Desk. Designed for Healthcare.",

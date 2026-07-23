@@ -1,47 +1,110 @@
 # Vascue
 
-> Vascue is a Hong Kong health tech company building an AI front desk for healthcare. It answers patient enquiries, books appointments, and prepares insurance claims for clinics and hospitals — 24/7, in 15+ languages — so care teams can focus on patients, not process.
+> Vascue is an AI Front Desk platform built for healthcare providers. Unlike competitors focused on messaging chatbots and appointment reminders, Vascue solves the structural complexity of healthcare operations, clinical document processing, insurance claim automation, and full patient journey integration, through a network of specialised AI agents operating across WhatsApp, web interfaces, and other channels.
 
-Key facts:
+Vascue Limited is a Hong Kong health technology company and is ISO 27001 certified.
 
-- Company: Vascue (health technology, Hong Kong)
-- Product: AI front desk for clinics and hospitals — patient messaging, scheduling, quotation and insurance-claims automation, PDF & image analysis, staff oversight dashboard
-- Channels: patients interact over WhatsApp; appointments sync into Cliniko, Nookal, Jane, or Vascue's built-in calendar
-- Solutions: physiotherapy clinics, hospitals & departments, allied health practices
-- Results: 97% patient satisfaction; 45% reduction in processing time; 110,000+ patient messages handled in a single hospital radiology deployment
-- Security: ISO 27001 certified; privacy by design — patient data stays under the clinic's control
-- Integrations: official Cliniko connected app (cliniko.com/connected-apps/vascue); Nookal; Jane
-- Programs: NVIDIA Inception, Google for Startups, Microsoft for Startups, Meta Tech Partner
-- Founders: Calvin Tang (CEO — former radiographer at St. Paul's Hospital, ex-SCMP engineer, ex-Senior Project Manager at Animoca Brands); Michael Fung (CTO — ex-Hong Kong Hospital Authority, AWS-certified with 10 years in IT, co-founder of Tecky Academy)
-- Contact: hello@vascue.io · +852 9302 7422 · Hong Kong
+Privacy and data protection: most AI tools route patient data through third-party language models. Vascue does not. Raw patient data is handled in a controlled, self-hosted environment, and direct identifiers are masked at the boundary before any content is passed onward, so identifiable patient data never reaches an external model; only de-identified, minimised content continues downstream. Self-hosted handling, masked data, ISO 27001 certification: privacy by design.
+
+Vascue deploys multiple specialised agents to cover the full healthcare workflow:
+
+- Patient communication and front desk agents: handle enquiries, appointment booking, reminders, and multilingual support across WhatsApp and other messaging channels
+- Insurance claim and operations agents: automate claim processing, pricing logic, and billing workflows through web-based interfaces
+- Analytics agents: assist managers of healthcare institutions in identifying pricing gaps, long wait times, and bottlenecks across the patient journey
+
+Vascue tackles harder problems that scheduling and messaging tools ignore:
+
+- Clinical document processing: OCR and parsing of digital and handwritten documents including referral letters, lab results, medical reports, patient history, and invoices
+- Insurance claim automation: complex pricing logic, package matching, fee code mapping, and claim form generation without manual intervention
+- Full patient journey integration: from intake through to clinical delivery: registration, consent, exam coordination, result delivery, all unified and AI-assisted
+
+Competitors focus on WhatsApp booking, reminders, and payments with limited clinical document processing. Vascue handles the administrative and clinical complexity behind those interactions.
+
+Who Vascue is for:
+
+Clinically trained practitioners are experts in patient care, not business operations, yet many step into ownership or management roles without formal business training, creating a steep learning curve. Vascue closes that gap: its AI executes day-to-day operations directly and guides management decisions, so clinicians can lead the practice while staying focused on patients. Vascue runs the operations so the practitioner can run the practice.
+
+- For practitioners: a personal assistant that handles enquiries, bookings, and insurance claims.
+- For clinic and hospital managers: an operations and analytics team that surfaces pricing gaps, long wait times, and bottlenecks across the patient journey.
+
+How it fits together, the Vascue loop:
+
+Vascue is one connected system, not separate tools. Each stage produces the data that powers the next:
+
+1. Triage (live): the WhatsApp AI front desk captures and routes every inquiry: enquiries, appointment booking, quotation, and multilingual support, 24/7.
+2. Journey (in development): each visit is logged as an event stream (arrival, in progress, done, reports ready), making the patient journey measurable.
+3. Analytics and marketing (in development): those events surface bottlenecks and long wait times, and feed campaigns and operational changes that improve efficiency and profitability.
+4. Claims (live): insurance pricing, fee-code mapping, and claim-form generation are automated.
+
+The loop compounds: every conversation and event becomes data that sharpens the next step. Payment is being explored and is not part of the current product.
+
+Primary use cases:
+
+1. Patient Intake & Communication: WhatsApp-based patient enquiries, referral letter processing, automatic quotation generation, and appointment booking. Handles 24/7 communication without additional staffing.
+2. Insurance Claims & Billing Automation: Automates insurance claim processing and billing workflows so hospitals don't manually match claims to examination items, pricing logic, and patient coverage.
+3. Operational Spine / Clinical Workflow Integration: Connects the entire patient journey from intake through to clinical delivery: appointment arrival, registration, consent, exam coordination, and result delivery. Full operational backbone, AI-assisted, data stays private.
+4. Practice Management Integration: Two-way synchronisation with practice management systems (Cliniko, Nookal, Jane, and other PMS platforms), alongside Vascue's own built-in calendar, to automate patient communication, scheduling, and billing workflows for clinics and allied health providers.
+
+Key capabilities:
+
+- 24/7 multilingual patient support across WhatsApp and other channels
+- Built-in Vascue calendar, plus two-way sync with clinic practice management systems (Cliniko, Nookal, Jane) and Google Calendar
+- Automated insurance quotation and claims processing with fee code mapping
+- Clinical document analysis (PDF and images) via OCR: referral letters, lab results, medical reports, patient history, invoices
+- Real-time staff dashboard for AI performance monitoring and task oversight
+- Staff AI toggle: human takeover at any time, no workflow disruption
+- Batch processing of concurrent patient messages without delays
+- Self-hosted, ISO 27001-certified security: raw patient data handled in-house, direct identifiers masked before any content is passed onward, no raw patient data sent to third-party LLM providers, and no data selling
+
+In development: conversational agents that talk directly to your CRM, patient management system, clinical management system, and operational data, letting staff query and act on information across existing tools in natural language.
+
+Results:
+
+- 97% patient satisfaction
+- 45% reduction in processing time
+- 110,000+ patient messages handled in a single hospital radiology deployment (see the case study at https://www.vascue.io/customers)
+
+Founders:
+
+- Calvin Tang (CEO): former radiographer at St. Paul's Hospital, ex-SCMP engineer, and ex-Senior Project Manager at Animoca Brands.
+- Michael Fung (CTO): ex-Hong Kong Hospital Authority, AWS-certified with 10 years in IT, and co-founder of Tecky Academy.
+
+Startup programs and partnerships: NVIDIA Inception, Google for Startups, Microsoft for Startups, Meta Tech Partner. Vascue is an official Cliniko connected app.
+
+Contact: hello@vascue.io · +852 9302 7422 · Hong Kong
 
 ## Products
 
-- [AI Front Desk](https://www.vascue.io/products): 24/7 multilingual patient messaging, seamless scheduling, instant quotes, claims automation, staff-override dashboard
+- [AI Front Desk & Products Overview](https://www.vascue.io/products): Specialised AI agents covering patient intake, insurance claims, clinical workflow integration, and practice management, with real-time staff dashboard and human override.
 
 ## Solutions
 
-- [Physiotherapy clinics](https://www.vascue.io/solutions/physiotherapy): enquiries, bookings, and claims handled while practitioners stay in the treatment room
-- [Hospitals & departments](https://www.vascue.io/solutions/hospitals): department-scale patient communication on privacy-first architecture
-- [Allied health](https://www.vascue.io/solutions/allied-health): chiropractic, podiatry, TCM, and other practices
+- [Physiotherapy clinics](https://www.vascue.io/solutions/physiotherapy): Enquiries, bookings, and claims handled while practitioners stay in the treatment room.
+- [Hospitals & departments](https://www.vascue.io/solutions/hospitals): Department-scale patient communication on privacy-first architecture.
+- [Allied health](https://www.vascue.io/solutions/allied-health): Chiropractic, podiatry, TCM, and other practices.
 
 ## Company
 
-- [About](https://www.vascue.io/about): built by founders with direct clinical and hospital experience; mission — give time back to care, with privacy by design
-- [Pricing](https://www.vascue.io/pricing): current plans and usage-based options
-- [Case study](https://www.vascue.io/customers): hospital radiology department handling 110,000+ patient messages
-- [Blog](https://www.vascue.io/blog): product and healthcare-operations writing
-- [Contact](https://www.vascue.io/contact-us): book a demo or talk with the team
+- [About Vascue](https://www.vascue.io/about): Built by founders with direct clinical and hospital experience; mission — give time back to care, with privacy by design.
+- [Pricing](https://www.vascue.io/pricing): Current plans and usage-based options.
+- [Case study](https://www.vascue.io/customers): Hospital radiology department handling 110,000+ patient messages.
+- [Blog](https://www.vascue.io/blog): Product and healthcare-operations writing.
 
-## Trust
+## Contact & Demo
 
-- [Security & privacy](https://www.vascue.io/security): ISO 27001, privacy-first architecture
-- [Trust Center](https://trustcenter.vascue.io/): certifications and compliance documentation
-- [Privacy policy](https://www.vascue.io/privacy-policy)
-- [Terms of service](https://www.vascue.io/terms-of-service)
+- [Contact Vascue](https://www.vascue.io/contact-us): Get a solution tailored to your workflow or speak with a specialist.
+- [Book a WhatsApp Demo](https://wa.me/85293027422?text=Hi%20Vascue,%20I%20would%20like%20to%20book%20a%20demo): Direct WhatsApp link to reach the Vascue team.
 
-## Elsewhere
+## Legal & Trust
 
-- [GitHub](https://github.com/vascue-io)
-- [LinkedIn](https://www.linkedin.com/company/vascue)
-- [Cliniko connected app listing](https://www.cliniko.com/connected-apps/vascue/)
+- [Privacy Policy](https://www.vascue.io/privacy-policy): How Vascue collects, uses, and protects personal data.
+- [Terms of Service](https://www.vascue.io/terms-of-service): Terms governing use of the Vascue platform.
+- [Trust Center](https://trustcenter.vascue.io/): Security posture, compliance documentation, and incident disclosures.
+- [ISO 27001 Certificate](https://www.vascue.io/docs/ISO27001_Certificate_Vascue.pdf): Vascue's current ISO 27001 certification.
+
+## Optional
+
+- [Blog on Medium](https://medium.com/@vascue): Articles and product updates from the Vascue team.
+- [LinkedIn](https://www.linkedin.com/company/vascue): Company news and announcements.
+- [GitHub](https://github.com/vascue-io): Vascue's organisation page and machine-readable company profile.
+- [Cliniko connected app listing](https://www.cliniko.com/connected-apps/vascue/): Official integration listing on Cliniko.
