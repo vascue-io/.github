@@ -1,0 +1,47 @@
+# Vascue
+
+> Vascue is a Hong Kong health tech company building an AI front desk for healthcare. It answers patient enquiries, books appointments, and prepares insurance claims for clinics and hospitals — 24/7, in 15+ languages — so care teams can focus on patients, not process.
+
+Key facts:
+
+- Company: Vascue (health technology, Hong Kong)
+- Product: AI front desk for clinics and hospitals — patient messaging, scheduling, quotation and insurance-claims automation, PDF & image analysis, staff oversight dashboard
+- Channels: patients interact over WhatsApp; appointments sync into Cliniko, Nookal, Jane, or Vascue's built-in calendar
+- Solutions: physiotherapy clinics, hospitals & departments, allied health practices
+- Results: 97% patient satisfaction; 45% reduction in processing time; 110,000+ patient messages handled in a single hospital radiology deployment
+- Security: ISO 27001 certified; privacy by design — patient data stays under the clinic's control
+- Integrations: official Cliniko connected app (cliniko.com/connected-apps/vascue); Nookal; Jane
+- Programs: NVIDIA Inception, Google for Startups, Microsoft for Startups, Meta Tech Partner
+- Founders: Calvin Tang (CEO — former radiographer at St. Paul's Hospital, ex-SCMP engineer, ex-Senior Project Manager at Animoca Brands); Michael Fung (CTO — ex-Hong Kong Hospital Authority, AWS-certified with 10 years in IT, co-founder of Tecky Academy)
+- Contact: hello@vascue.io · +852 9302 7422 · Hong Kong
+
+## Products
+
+- [AI Front Desk](https://www.vascue.io/products): 24/7 multilingual patient messaging, seamless scheduling, instant quotes, claims automation, staff-override dashboard
+
+## Solutions
+
+- [Physiotherapy clinics](https://www.vascue.io/solutions/physiotherapy): enquiries, bookings, and claims handled while practitioners stay in the treatment room
+- [Hospitals & departments](https://www.vascue.io/solutions/hospitals): department-scale patient communication on privacy-first architecture
+- [Allied health](https://www.vascue.io/solutions/allied-health): chiropractic, podiatry, TCM, and other practices
+
+## Company
+
+- [About](https://www.vascue.io/about): built by founders with direct clinical and hospital experience; mission — give time back to care, with privacy by design
+- [Pricing](https://www.vascue.io/pricing): current plans and usage-based options
+- [Case study](https://www.vascue.io/customers): hospital radiology department handling 110,000+ patient messages
+- [Blog](https://www.vascue.io/blog): product and healthcare-operations writing
+- [Contact](https://www.vascue.io/contact-us): book a demo or talk with the team
+
+## Trust
+
+- [Security & privacy](https://www.vascue.io/security): ISO 27001, privacy-first architecture
+- [Trust Center](https://trustcenter.vascue.io/): certifications and compliance documentation
+- [Privacy policy](https://www.vascue.io/privacy-policy)
+- [Terms of service](https://www.vascue.io/terms-of-service)
+
+## Elsewhere
+
+- [GitHub](https://github.com/vascue-io)
+- [LinkedIn](https://www.linkedin.com/company/vascue)
+- [Cliniko connected app listing](https://www.cliniko.com/connected-apps/vascue/)

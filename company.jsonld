@@ -1,0 +1,50 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Vascue",
+  "url": "https://www.vascue.io",
+  "logo": "https://www.vascue.io/seo/Frame-4-1.png",
+  "slogan": "AI Front Desk. Designed for Healthcare.",
+  "description": "Vascue is a Hong Kong health tech company building an AI front desk for healthcare. It answers patient enquiries, books appointments, and prepares insurance claims for clinics and hospitals — 24/7, in 15+ languages — so care teams can focus on patients, not process.",
+  "email": "hello@vascue.io",
+  "telephone": "+85293027422",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Hong Kong",
+    "addressCountry": "HK"
+  },
+  "founder": [
+    {
+      "@type": "Person",
+      "name": "Calvin Tang",
+      "jobTitle": "Chief Executive Officer",
+      "description": "Former radiographer at St. Paul's Hospital, ex-SCMP engineer, and ex-Senior Project Manager at Animoca Brands."
+    },
+    {
+      "@type": "Person",
+      "name": "Michael Fung",
+      "jobTitle": "Chief Technology Officer",
+      "description": "Ex-Hong Kong Hospital Authority, AWS-certified with 10 years in IT, and co-founder of Tecky Academy."
+    }
+  ],
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "contactType": "sales",
+    "email": "hello@vascue.io",
+    "telephone": "+85293027422",
+    "availableLanguage": ["English", "Cantonese", "Mandarin"]
+  },
+  "knowsAbout": [
+    "healthcare automation",
+    "AI patient communication",
+    "clinic appointment scheduling",
+    "insurance claims automation",
+    "Cliniko integration"
+  ],
+  "sameAs": [
+    "https://github.com/vascue-io",
+    "https://www.linkedin.com/company/vascue",
+    "https://www.cliniko.com/connected-apps/vascue/",
+    "https://trustcenter.vascue.io/"
+  ]
+}
