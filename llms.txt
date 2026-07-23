@@ -1,6 +1,8 @@
 # Vascue
 
-> Vascue is an AI Front Desk platform built for healthcare providers. Unlike competitors focused on messaging chatbots and appointment reminders, Vascue solves the structural complexity of healthcare operations, clinical document processing, insurance claim automation, and full patient journey integration, through a network of specialised AI agents operating across WhatsApp, web interfaces, and other channels.
+> Vascue is the operational spine for healthcare providers: an AI front desk plus the operations engine behind it, running everything from the first message to the final claim. Unlike competitors focused on messaging chatbots and appointment reminders, Vascue solves the structural complexity of healthcare operations, clinical document processing, insurance claim automation, and full patient journey integration, through a network of specialised AI agents operating across WhatsApp, web interfaces, and other channels.
+
+Positioning: "Operational Spine. Designed for Healthcare. Synapsed with AI."
 
 Vascue Limited is a Hong Kong health technology company and is ISO 27001 certified.
 
@@ -58,11 +60,13 @@ Key capabilities:
 
 In development: conversational agents that talk directly to your CRM, patient management system, clinical management system, and operational data, letting staff query and act on information across existing tools in natural language.
 
-Results:
+Results (live production numbers from the deployment running today):
 
-- 97% patient satisfaction
-- 45% reduction in processing time
-- 110,000+ patient messages handled in a single hospital radiology deployment (see the case study at https://www.vascue.io/customers)
+- 110,000+ messages handled
+- 99.2% replies rated correct by staff
+- ~60 seconds from referral photo to quote
+- 6,500+ patients served
+- Case study: https://www.vascue.io/customers/radiology-hong-kong
 
 Founders:
 
@@ -75,7 +79,9 @@ Contact: hello@vascue.io · +852 9302 7422 · Hong Kong
 
 ## Products
 
-- [AI Front Desk & Products Overview](https://www.vascue.io/products): Specialised AI agents covering patient intake, insurance claims, clinical workflow integration, and practice management, with real-time staff dashboard and human override.
+- [Features Overview](https://www.vascue.io/products): Everything your front desk does, in one system — 24/7 multilingual booking, instant quotes, referral reading, insurance-claim automation, and privacy by architecture. Front desk (24/7 multilingual support, smart scheduling, instant quotes, referral & image reading, batch processing, staff override), claims (quotation & claim forms, fee-code mapping, claim submission & tracking, pre-auth automation, shortfall flagging, payment reconciliation), and oversight (dashboard, patient journey monitoring, see-through analytics).
+- [Live phone demo](https://www.vascue.io/phone-demo): Try the WhatsApp front desk in the browser.
+- [Cliniko integration](https://www.vascue.io/cliniko): AI front desk for Cliniko practices — WhatsApp booking with two-way sync, no double entry.
 
 ## Solutions
 
@@ -87,8 +93,17 @@ Contact: hello@vascue.io · +852 9302 7422 · Hong Kong
 
 - [About Vascue](https://www.vascue.io/about): Built by founders with direct clinical and hospital experience; mission — give time back to care, with privacy by design.
 - [Pricing](https://www.vascue.io/pricing): Current plans and usage-based options.
-- [Case study](https://www.vascue.io/customers): Hospital radiology department handling 110,000+ patient messages.
+- [Case study](https://www.vascue.io/customers/radiology-hong-kong): Patient communication AI in a Hong Kong hospital radiology department — 110,000+ messages handled on privacy-first architecture.
 - [Blog](https://www.vascue.io/blog): Product and healthcare-operations writing.
+
+## Blog Posts
+
+- [Patient Communication AI in a Hong Kong Hospital: A Privacy-First Architecture on AWS](https://www.vascue.io/blog/patient-communication-ai-hong-kong-hospital-privacy-first-architecture-aws): Inside the privacy-first AWS architecture Vascue built for a Hong Kong hospital radiology department, where patient data is de-identified on Vascue's own infrastructure before it ever reaches a hosted model.
+- [Insurance Claim Automation for Clinics and Hospitals: WhatsApp to Filed Claim](https://www.vascue.io/blog/insurance-claim-automation-clinics-hospitals): Vascue automates insurance claims and pre-authorisation for clinics and hospitals, from WhatsApp inquiry to filed claim.
+- [End-to-End Patient Journey Automation for Allied Health Clinics](https://www.vascue.io/blog/end-to-end-patient-journey-automation-allied-health): Most clinic AI automates one slice of the journey. Vascue connects the arc from the first WhatsApp message through booking to the filed insurance claim.
+- [AI Front Desk for Large Allied Health Clinics: Handling Scale](https://www.vascue.io/blog/ai-front-desk-large-allied-health-clinic): How Vascue's WhatsApp AI front desk absorbs inquiry volume without growing reception headcount.
+- [Best AI Medical Receptionist for Allied Health Clinics in 2026](https://www.vascue.io/blog/best-ai-medical-receptionist-allied-health): The best AI medical receptionists for allied health in 2026, compared on intake, booking, and claims.
+- [Vascue for Cliniko and Nookal: AI WhatsApp Intake and Booking](https://www.vascue.io/blog/vascue-cliniko-nookal-integration): Vascue adds an AI front desk to Cliniko and Nookal — WhatsApp patient intake and booking around the clock, plus insurance-claim automation.
 
 ## Contact & Demo
 

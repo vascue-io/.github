@@ -5,8 +5,8 @@
   "legalName": "Vascue Limited",
   "url": "https://www.vascue.io",
   "logo": "https://www.vascue.io/seo/Frame-4-1.png",
-  "slogan": "AI Front Desk. Designed for Healthcare.",
-  "description": "Vascue is a Hong Kong health tech company building an AI front desk for healthcare. It answers patient enquiries, books appointments, and prepares insurance claims for clinics and hospitals — 24/7, in 15+ languages — so care teams can focus on patients, not process.",
+  "slogan": "Operational Spine. Designed for Healthcare. Synapsed with AI.",
+  "description": "Vascue is a Hong Kong health tech company building the operational spine for clinics and hospitals: an AI front desk plus the operations engine behind it. From the first message to the final claim, Vascue answers patient enquiries 24/7 in 15+ languages, books appointments into practice-management systems, and automates insurance claims — so care teams can focus on patients, not process.",
   "email": "hello@vascue.io",
   "telephone": "+85293027422",
   "address": {
@@ -40,6 +40,7 @@
     "AI patient communication",
     "clinic appointment scheduling",
     "insurance claims automation",
+    "patient journey analytics",
     "Cliniko integration"
   ],
   "sameAs": [
