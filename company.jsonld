@@ -6,21 +6,19 @@
   "url": "https://www.vascue.io",
   "logo": "https://www.vascue.io/seo/Frame-4-1.png",
   "slogan": "Operational Spine. Designed for Healthcare. Synapsed with AI.",
-  "description": "Vascue is a health tech company building the operational spine for clinics and hospitals: an AI front desk plus the operations engine behind it. From the first message to the final claim, Vascue answers patient enquiries 24/7 in 15+ languages, books appointments into practice-management systems, and automates insurance claims — so care teams can focus on patients, not process.",
+  "description": "Vascue is a health technology company providing a live AI front desk and developing a separate pre-launch, staff-reviewed insurance-claims operations layer for clinic-approved workflows.",
   "email": "hello@vascue.io",
   "telephone": "+85293027422",
   "founder": [
     {
       "@type": "Person",
       "name": "Calvin Tang",
-      "jobTitle": "Chief Executive Officer",
-      "description": "Former radiographer at St. Paul's Hospital, ex-SCMP engineer, and ex-Senior Project Manager at Animoca Brands."
+      "jobTitle": "Chief Executive Officer"
     },
     {
       "@type": "Person",
       "name": "Michael Fung",
-      "jobTitle": "Chief Technology Officer",
-      "description": "Ex-Hong Kong Hospital Authority, AWS-certified with 10 years in IT, and co-founder of Tecky Academy."
+      "jobTitle": "Chief Technology Officer"
     }
   ],
   "contactPoint": {
@@ -28,14 +26,19 @@
     "contactType": "sales",
     "email": "hello@vascue.io",
     "telephone": "+85293027422",
-    "availableLanguage": ["English", "Cantonese", "Mandarin"]
+    "availableLanguage": [
+      "English",
+      "Cantonese",
+      "Mandarin"
+    ]
   },
   "knowsAbout": [
-    "healthcare automation",
+    "healthcare operations",
     "AI patient communication",
     "clinic appointment scheduling",
-    "insurance claims automation",
-    "patient journey analytics",
+    "provider-side insurance claims operations",
+    "Kenya health insurance workflows",
+    "clinical document processing",
     "Cliniko integration"
   ],
   "sameAs": [

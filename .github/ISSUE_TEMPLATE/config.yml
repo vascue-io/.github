@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Product and partnership enquiries
+    url: https://www.vascue.io/contact-us
+    about: Contact Vascue without posting clinic or patient information publicly.
+  - name: Security and vulnerability reports
+    url: https://www.vascue.io/security
+    about: Read the security policy and report vulnerabilities privately, never through a public issue.
