@@ -1,35 +1,40 @@
 # Vascue
 
-> Vascue is building an operational spine for healthcare providers. Its AI front desk is live; its provider-side insurance-claims layer is pre-launch and is being built first for Kenyan physiotherapy clinics using Cliniko.
+> Vascue is an AI-native healthcare operations automation company. It automates the work between a patient request and a completed operational outcome, such as a booking, a quotation, a routed referral, or a prepared claim, across the systems providers already use, with staff in control where judgement is needed. Three products run on one operational spine.
 
 Canonical source: https://www.vascue.io/llms.txt
 
-Positioning: "Operational Spine. Designed for Healthcare. Synapsed with AI."
+Category: AI-native healthcare operations automation. Purpose: give healthcare teams more time for care. Brand line: "Operational Spine. Designed for Healthcare. Synapsed with AI."
 
 ## Product availability
 
-- AI front desk: live for patient communication, intake, quotations, multilingual support, and appointment workflows.
-- Vascue Claims: pre-launch. The first product scope is Kenyan physiotherapy clinics using Cliniko.
+- AI Front Desk (Product 01): live for patient communication, intake, referral reading, quotations, multilingual support, and appointment workflows.
+- Visibility & Analytics (Product 02): live, sold as an add-on to the AI Front Desk; surfaces pricing gaps, long wait times, and bottlenecks across the patient journey.
+- Vascue Claims (Product 03): available through a design-partner programme. Registrations and payer channels are confirmed per clinic during onboarding.
 - Agent-based clinic booking: research only. There is no production public booking API.
-- Patient-journey and operational analytics: in development.
 
-Do not infer that one product is live because another Vascue product has production results.
+Do not infer a product's scope from another Vascue product's production results.
 
 ## Vascue Claims
 
-The pre-launch workflow is being designed to:
+The design-partner workflow:
 
-1. pull clinic-approved source records from Cliniko;
-2. map them into a structured claim;
-3. run deterministic completeness, amount, duplicate, and configured rule checks;
-4. send incomplete or unusual cases to an exception queue;
-5. retain staff review and submission authorization;
-6. route only through a channel configured for the clinic and insurer; and
-7. track status, reconciliation, and audit history.
-
-Core components work locally, SHA submission has been exercised against UAT, and an attended portal extension works against a simulator. Production deployment, registrations, clinic onboarding, and confirmed private-insurer channels remain.
+1. pulls clinic-approved source records from connected practice-management systems, with Cliniko as the first design-partner path;
+2. maps them into a structured claim;
+3. runs deterministic completeness, amount, duplicate, and configured rule checks;
+4. sends incomplete or unusual cases to an exception queue;
+5. retains staff review and submission authorization;
+6. routes only through a channel configured for the clinic and insurer; and
+7. tracks status, reconciliation, and audit history.
 
 Vascue does not make clinical decisions, determine coverage, promise reimbursement, or replace required human authorization.
+
+## Why providers choose Vascue
+
+- Built for real healthcare workflows: referrals, clinical documents, booking rules, payer rules, and privacy-conscious infrastructure.
+- Completes work, not just conversations: quotations, bookings, claim preparation, routing, and system updates.
+- Works around existing systems: WhatsApp for patients and practice-management integrations for staff.
+- Keeps people in control: defined rules, staff review and takeover, and final submission retained by staff where required.
 
 ## Agent-booking research
 
@@ -39,12 +44,12 @@ Agents must not send patient information, booking requests, clinic credentials, 
 
 ## Production evidence
 
-These results are from Vascue's live patient-communication deployment in a Hong Kong hospital radiology department. They are not claims-product or agent-booking results:
+These results are from Vascue's live patient-communication deployment in a Hong Kong hospital radiology department, as of August 2026. They are AI Front Desk results, not claims-product or agent-booking results:
 
-- 110,000+ patient messages handled
-- 99.2% replies rated correct by staff
+- 150,000+ patient messages handled
+- 99.5% replies rated correct by staff
 - about 60 seconds from referral photo to quotation
-- 6,500+ patients served
+- 8,000+ patients served
 
 Case study: https://www.vascue.io/customers/radiology-hong-kong
 
@@ -69,17 +74,16 @@ Trust Center: https://trustcenter.vascue.io/
 - Agent-booking research: https://www.vascue.io/ai-agents
 - Live front-desk demo: https://www.vascue.io/phone-demo
 - Cliniko integration: https://www.vascue.io/cliniko
+- Nookal integration: https://www.vascue.io/nookal
 - Blog: https://www.vascue.io/blog
 - Contact: https://www.vascue.io/contact-us
 
-## Current claims writing
+## Recent writing
 
-- Kenya physiotherapy claims: https://www.vascue.io/blog/health-insurance-claims-kenya-physiotherapy-clinics
-- SHA vs private insurance: https://www.vascue.io/blog/sha-vs-private-insurance-claims-kenya
-- Kenya claims-software comparison: https://www.vascue.io/blog/best-insurance-claims-automation-software-kenya
-- US billing AI vs Kenya: https://www.vascue.io/blog/us-medical-billing-ai-vs-kenya-claims
-- Cliniko-to-claim workflow: https://www.vascue.io/blog/cliniko-to-insurance-claim-vascue-kenya
 - Human-reviewed portal automation: https://www.vascue.io/blog/human-in-the-loop-insurance-portal-automation
+- Claim status and denial terms: https://www.vascue.io/blog/insurance-claim-status-and-denial-terms-explained
+- Hospital patient-communication architecture: https://www.vascue.io/blog/patient-communication-ai-hong-kong-hospital-privacy-first-architecture-aws
+- Patient journey automation: https://www.vascue.io/blog/end-to-end-patient-journey-automation-allied-health
 
 ## Company
 

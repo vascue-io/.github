@@ -2,64 +2,58 @@
 
 # Vascue
 
-**Live AI front desk. Pre-launch claims operations. Built for healthcare.**
+**AI-native healthcare operations automation.**
 
-[Website](https://www.vascue.io) · [Claims overview](https://www.vascue.io/claims-automation.md) · [Claims FAQ](https://www.vascue.io/claims/faq) · [Live front-desk demo](https://www.vascue.io/phone-demo) · [Security](https://www.vascue.io/security) · [Blog](https://www.vascue.io/blog) · [LinkedIn](https://www.linkedin.com/company/vascue)
+Operational Spine. Designed for Healthcare. Synapsed with AI.
+
+[Website](https://www.vascue.io) · [Products](https://www.vascue.io/products) · [Claims overview](https://www.vascue.io/claims-automation.md) · [Claims FAQ](https://www.vascue.io/claims/faq) · [Live front-desk demo](https://www.vascue.io/phone-demo) · [Security](https://www.vascue.io/security) · [Blog](https://www.vascue.io/blog) · [LinkedIn](https://www.linkedin.com/company/vascue)
 
 </div>
 
 ---
 
-Vascue builds healthcare operations software that connects patient communication, clinic systems, and staff-reviewed administrative workflows. Our AI front desk is live. Vascue Claims is a separate pre-launch product being built first for Kenyan physiotherapy clinics using Cliniko.
+Vascue gives healthcare teams more time for care. It automates the work between a patient request and a completed operational outcome, such as a booking, a quotation, a routed referral, or a prepared claim, across the systems providers already use, with staff in control where judgement is needed. Three products run on one operational spine.
 
-## Product status
+## Products
 
-### AI front desk — live
+### 01 AI Front Desk: live
 
-- Answers patient enquiries and supports multilingual conversations around the clock
-- Handles intake, referral documents, quotations, and appointment workflows
-- Connects with clinic practice-management systems
-- Keeps staff able to review and take over conversations
+- Answers patient enquiries and supports multilingual conversations around the clock, on WhatsApp
+- Reads referral letters and clinical documents, quotes from the fee schedule, and books appointments
+- Connects with clinic practice-management systems, including an official Cliniko connected app
+- Keeps staff able to review and take over any conversation
 
-### Vascue Claims — pre-launch
+### 02 Visibility & Analytics: live
 
-Vascue Claims is being designed to turn clinic-approved Cliniko records into structured claims, apply deterministic checks, route exceptions for staff review, and track staff-authorized submissions and reconciliation.
+An add-on to the AI Front Desk. Each visit becomes a stream of operational events, so clinic and hospital managers can see pricing gaps, long wait times, and bottlenecks across the patient journey, and act on them.
 
-The initial focus is a small number of Kenyan physiotherapy design partners. Core components work locally, the SHA workflow has been exercised against UAT, and an attended portal extension works against a simulator. Production deployment, clinic onboarding, required registrations, and confirmed private-insurer channels remain.
+### 03 Vascue Claims: design-partner programme
+
+Vascue Claims is available through a design-partner programme. It turns connected practice-management records into source-linked claim drafts, applies deterministic checks, sends incomplete or unusual cases to staff, routes only staff-authorized claims through channels configured for each clinic, and tracks status and reconciliation. Registrations and payer channels are confirmed per clinic during onboarding.
 
 Vascue does not make clinical decisions, determine coverage, promise reimbursement, or submit a claim without the clinic's required authorization.
 
-### Agent booking — research only
+### Agent booking: research only
 
 Vascue is researching how patient-authorized AI assistants could discover clinics and request confirmed appointments. This is not a publicly available booking service or production API. Testing begins with synthetic patients, narrow permissions, and clinic review.
 
-### Journey and analytics — in development
+## Why providers choose Vascue
 
-Vascue is developing event-based operational views for arrivals, treatment progress, completion, reports, and administrative bottlenecks. These capabilities should not be treated as generally available.
+- **Built for real healthcare workflows.** Referrals, clinical documents, booking rules, payer rules, and privacy-conscious infrastructure.
+- **Completes work, not just conversations.** Interprets requests and finishes defined operational work: quotations, bookings, claim preparation, routing, and system updates.
+- **Works around existing systems.** WhatsApp for patients and practice-management integrations for staff, so providers reduce manual handoffs without rebuilding their workflows.
+- **Keeps people in control.** Defined rules, staff review and takeover, and final submission retained by staff where required.
 
 ## Production evidence
 
-The following results come from Vascue's live patient-communication deployment in a Hong Kong hospital radiology department. They are not claims-product results:
+The following results come from Vascue's live patient-communication deployment in a Hong Kong hospital radiology department, as of August 2026. They are AI Front Desk results, not claims-product results:
 
-- **110,000+** patient messages handled
-- **99.2%** replies rated correct by staff
+- **150,000+** patient messages handled
+- **99.5%** replies rated correct by staff
 - **About 60 seconds** from referral photo to quotation
-- **6,500+** patients served
+- **8,000+** patients served
 
 [Read the patient-communication case study](https://www.vascue.io/customers/radiology-hong-kong).
-
-## Claims focus
-
-The pre-launch claims workflow is intended to:
-
-1. pull clinic-approved source records;
-2. map them into a structured claim;
-3. check completeness, totals, duplicates, and configured rules;
-4. send incomplete or unusual cases to staff;
-5. route only staff-authorized claims through configured channels; and
-6. retain status, reconciliation, and audit history.
-
-Start with the [claims overview](https://www.vascue.io/claims-automation.md) and [claims FAQ](https://www.vascue.io/claims/faq).
 
 ## For agents and developers
 
@@ -76,10 +70,10 @@ There is no production public booking or claims API today. Do not send patient i
 
 ## Who it is for
 
-- [Physiotherapy clinics](https://www.vascue.io/solutions/physiotherapy) — live front-desk workflows and a separate pre-launch Kenya claims pilot
-- [Hospitals and departments](https://www.vascue.io/solutions/hospitals) — patient communication on privacy-first architecture
-- [Allied health](https://www.vascue.io/solutions/allied-health) — operational support for multidisciplinary practices
-- [Cliniko practices](https://www.vascue.io/cliniko) — an official Cliniko connected app
+- [Physiotherapy clinics](https://www.vascue.io/solutions/physiotherapy): front-desk workflows plus claims automation; Cliniko is the first design-partner path
+- [Hospitals and departments](https://www.vascue.io/solutions/hospitals): patient communication and operations automation on privacy-first architecture
+- [Allied health](https://www.vascue.io/solutions/allied-health): operational support for multidisciplinary practices
+- [Cliniko](https://www.vascue.io/cliniko) and [Nookal](https://www.vascue.io/nookal) practices: AI front desk with two-way booking sync
 
 ## Security and privacy
 
@@ -87,8 +81,8 @@ Vascue Limited is ISO 27001 certified. Components handling raw patient data run 
 
 ## Founders
 
-- **Calvin Tang — CEO.** Former radiographer at St. Paul's Hospital, ex-SCMP engineer, and former Senior Project Manager at Animoca Brands.
-- **Michael Fung — CTO.** Former Hong Kong Hospital Authority technologist, AWS-certified with 10 years in IT, and co-founder of Tecky Academy.
+- **Calvin Tang, CEO.** Former radiographer at St. Paul's Hospital, ex-SCMP engineer, and former Senior Project Manager at Animoca Brands.
+- **Michael Fung, CTO.** Former Hong Kong Hospital Authority technologist, AWS-certified with 10 years in IT, and co-founder of Tecky Academy.
 
 ## Programs and partnerships
 
@@ -96,14 +90,12 @@ NVIDIA Inception · Google for Startups · Microsoft for Startups · Meta Tech P
 
 Vascue is an official [Cliniko connected app](https://www.cliniko.com/connected-apps/vascue/).
 
-## Recent claims writing
+## Recent writing
 
-- [How Health Insurance Claims Work for Physiotherapy Clinics in Kenya](https://www.vascue.io/blog/health-insurance-claims-kenya-physiotherapy-clinics)
-- [SHA vs Private Insurance Claims in Kenya](https://www.vascue.io/blog/sha-vs-private-insurance-claims-kenya)
-- [Best Insurance Claims Automation Options for Kenyan Clinics in 2026](https://www.vascue.io/blog/best-insurance-claims-automation-software-kenya)
-- [Why US Medical Billing AI Does Not Plug Directly Into Kenya](https://www.vascue.io/blog/us-medical-billing-ai-vs-kenya-claims)
-- [From Cliniko Invoice to Insurer-Ready Claim](https://www.vascue.io/blog/cliniko-to-insurance-claim-vascue-kenya)
 - [Why the Human Click Still Matters in Insurance Portal Automation](https://www.vascue.io/blog/human-in-the-loop-insurance-portal-automation)
+- [Insurance Claim Status and Denial Terms Explained](https://www.vascue.io/blog/insurance-claim-status-and-denial-terms-explained)
+- [Patient Communication AI in a Hong Kong Hospital: A Privacy-First Architecture on AWS](https://www.vascue.io/blog/patient-communication-ai-hong-kong-hospital-privacy-first-architecture-aws)
+- [Patient Journey Automation for Allied Health Clinics, End to End](https://www.vascue.io/blog/end-to-end-patient-journey-automation-allied-health)
 
 ## Contact
 

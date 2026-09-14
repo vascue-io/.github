@@ -1,12 +1,13 @@
 {
   "@context": "https://schema.org",
   "@type": "Organization",
+  "@id": "https://www.vascue.io/#organization",
   "name": "Vascue",
   "legalName": "Vascue Limited",
   "url": "https://www.vascue.io",
   "logo": "https://www.vascue.io/seo/Frame-4-1.png",
   "slogan": "Operational Spine. Designed for Healthcare. Synapsed with AI.",
-  "description": "Vascue is a health technology company providing a live AI front desk and developing a separate pre-launch, staff-reviewed insurance-claims operations layer for clinic-approved workflows.",
+  "description": "Vascue is an AI-native healthcare operations automation company. It automates the work between a patient request and a completed operational outcome, across the systems providers already use, with staff in control where judgement is needed. Three products run on one operational spine: the AI Front Desk, Visibility & Analytics, and Vascue Claims.",
   "email": "hello@vascue.io",
   "telephone": "+85293027422",
   "founder": [
@@ -33,18 +34,30 @@
     ]
   },
   "knowsAbout": [
-    "healthcare operations",
-    "AI patient communication",
-    "clinic appointment scheduling",
-    "provider-side insurance claims operations",
-    "Kenya health insurance workflows",
-    "clinical document processing",
-    "Cliniko integration"
+    "Healthcare operations automation",
+    "AI front desk for clinics and hospital departments",
+    "Patient journey and front-desk operations analytics",
+    "Patient communication and appointment booking over WhatsApp",
+    "Provider-side health insurance claims automation",
+    "Insurance claim preparation, validation, routing, and reconciliation",
+    "Clinical document OCR and parsing (referrals, reports, invoices)",
+    "Revenue-cycle operations for allied health practices",
+    "Privacy-first healthcare AI architecture and ISO/IEC 27001",
+    "Agent-ready healthcare: llms.txt, Markdown for agents, and MCP"
   ],
+  "hasCredential": {
+    "@type": "EducationalOccupationalCredential",
+    "credentialCategory": "certification",
+    "name": "ISO/IEC 27001 Information Security Management",
+    "url": "https://www.vascue.io/docs/ISO27001_Certificate_Vascue.pdf"
+  },
   "sameAs": [
     "https://github.com/vascue-io",
     "https://www.linkedin.com/company/vascue",
     "https://www.cliniko.com/connected-apps/vascue/",
-    "https://trustcenter.vascue.io/"
+    "https://trustcenter.vascue.io/",
+    "https://medium.com/@vascue",
+    "https://www.instagram.com/vascue.io",
+    "https://www.facebook.com/vascue.io"
   ]
 }
