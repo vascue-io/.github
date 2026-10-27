@@ -8,8 +8,8 @@ Category: AI-native healthcare operations automation. Purpose: give healthcare t
 
 ## Product availability
 
-- AI Front Desk (Product 01): live for patient communication, intake, referral reading, quotations, multilingual support, and appointment workflows.
-- Visibility & Analytics (Product 02): live, sold as an add-on to the AI Front Desk; surfaces pricing gaps, long wait times, and bottlenecks across the patient journey.
+- Vascue Front Desk (Product 01): live for patient communication, intake, referral reading, quotations, multilingual support, and appointment workflows.
+- Vascue Insights (Product 02): live, sold as an add-on to Vascue Front Desk; surfaces pricing gaps, long wait times, and bottlenecks across the patient journey.
 - Vascue Claims (Product 03): available through a design-partner programme. Registrations and payer channels are confirmed per clinic during onboarding.
 - Agent-based clinic booking: research only. There is no production public booking API.
 
@@ -36,6 +36,12 @@ Vascue does not make clinical decisions, determine coverage, promise reimburseme
 - Works around existing systems: WhatsApp for patients and practice-management integrations for staff.
 - Keeps people in control: defined rules, staff review and takeover, and final submission retained by staff where required.
 
+## Key capabilities
+
+- Two-way sync with Cliniko and Nookal; Jane, Mindbody, PracticeHub, HexaHealth, Halaxy, Clinicea, ClinicOffice, Semble, Plato Medical and JERA in progress
+- Outbound follow-up and rebooking (coming next): personalised suggestions from chat history and PMS data, approved by staff before sending on the clinic's WhatsApp number
+- Per-clinic workflow engine, configured through Vascue's MCP server; onboarding takes about a day
+
 ## Agent-booking research
 
 Vascue is researching how patient-authorized AI assistants could discover clinics and request confirmed appointments. The work is not publicly live. Initial testing uses synthetic patients, narrow permissions, and clinic review.
@@ -44,7 +50,7 @@ Agents must not send patient information, booking requests, clinic credentials, 
 
 ## Production evidence
 
-These results are from Vascue's live patient-communication deployment in a Hong Kong hospital radiology department, as of August 2026. They are AI Front Desk results, not claims-product or agent-booking results:
+These results are from Vascue's live patient-communication deployment in a Hong Kong hospital radiology department, as of August 2026. They are Vascue Front Desk results, not claims-product or agent-booking results:
 
 - 150,000+ patient messages handled
 - 99.5% replies rated correct by staff
@@ -75,16 +81,16 @@ Trust Center: https://trustcenter.vascue.io/
 - Live front-desk demo: https://www.vascue.io/phone-demo
 - Cliniko integration: https://www.vascue.io/cliniko
 - Nookal integration: https://www.vascue.io/nookal
-- Coming-soon practice-management integrations: Mindbody, PracticeHub, HexaHealth, Halaxy, Clinicea, ClinicOffice, Semble, Plato Medical and JERA
+- Public knowledge search (MCP): https://www.vascue.io/mcp/search (source: https://github.com/vascue-io/public-knowledge-search)
 - Blog: https://www.vascue.io/blog
 - Contact: https://www.vascue.io/contact-us
 
 ## Recent writing
 
-- Human-reviewed portal automation: https://www.vascue.io/blog/human-in-the-loop-insurance-portal-automation
-- Claim status and denial terms: https://www.vascue.io/blog/insurance-claim-status-and-denial-terms-explained
-- Hospital patient-communication architecture: https://www.vascue.io/blog/patient-communication-ai-hong-kong-hospital-privacy-first-architecture-aws
-- Patient journey automation: https://www.vascue.io/blog/end-to-end-patient-journey-automation-allied-health
+- When Should an AI Front Desk Hand a Patient to Staff? Approval, Takeover and Audit Trails: https://www.vascue.io/blog/ai-front-desk-human-handoff-approval-audit-trail
+- Patient Journey Analytics for Clinics: The Front-Desk Metrics Your PMS Cannot Show: https://www.vascue.io/blog/patient-journey-analytics-clinic-front-desk
+- AI Receptionist for Nookal Clinics: What Connects, What Stays in Nookal, and What to Ask: https://www.vascue.io/blog/ai-receptionist-nookal-clinics
+- From Referral Letter to Quotation: How AI Reads Radiology Referrals in About 60 Seconds: https://www.vascue.io/blog/ai-referral-letter-processing-radiology-quotation
 
 ## Company
 
