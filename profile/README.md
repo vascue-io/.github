@@ -20,8 +20,7 @@ Vascue gives healthcare teams more time for care. It automates the work between 
 
 - Answers patient enquiries and supports multilingual conversations around the clock, on WhatsApp
 - Reads referral letters and clinical documents, quotes from the fee schedule, and books appointments
-- Two-way sync with Cliniko (official connected app) and Nookal; Jane in progress
-- Mindbody, PracticeHub, HexaHealth, Halaxy, Clinicea, ClinicOffice, Semble, Plato Medical and JERA integrations are coming soon
+- Two-way sync with Cliniko (official connected app) and Nookal; Jane, Mindbody, PracticeHub, HexaHealth, Halaxy, Clinicea, ClinicOffice, Semble, Plato Medical and JERA in progress
 - Keeps staff able to review and take over any conversation
 - Coming next: personalised follow-up and rebooking suggestions from chat history and PMS data, approved by staff before they go out on the clinic's WhatsApp number
 
