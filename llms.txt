@@ -75,6 +75,7 @@ Trust Center: https://trustcenter.vascue.io/
 - Live front-desk demo: https://www.vascue.io/phone-demo
 - Cliniko integration: https://www.vascue.io/cliniko
 - Nookal integration: https://www.vascue.io/nookal
+- Coming-soon practice-management integrations: Mindbody, PracticeHub, HexaHealth, Halaxy, Clinicea, ClinicOffice, Semble, Plato Medical and JERA
 - Blog: https://www.vascue.io/blog
 - Contact: https://www.vascue.io/contact-us
 
