@@ -1,25 +1,25 @@
 # Vascue
 
-> Vascue is an AI-native healthcare operations automation company. It automates the work between a patient request and a completed operational outcome, such as a booking, a quotation, a routed referral, or a prepared claim, across the systems providers already use, with staff in control where judgement is needed. Three products run on one operational spine.
+> Vascue is the operational spine for healthcare, connecting patient communication, workflows, insights and claims across the systems providers already use. It automates the work between a patient request and a completed operational outcome, such as a booking, a quotation, a routed referral, or a prepared claim, with staff in control where judgement is needed. Three products run on one operational spine.
 
 Canonical source: https://www.vascue.io/llms.txt
 
-Category: AI-native healthcare operations automation. Purpose: give healthcare teams more time for care. Brand line: "Operational Spine. Designed for Healthcare. Synapsed with AI."
+Category: AI-native healthcare operations automation. Purpose: give healthcare teams more time for care. Brand line: "The operational spine for healthcare."
 
 ## Product availability
 
-- Vascue Front Desk (Product 01): live for patient communication, intake, referral reading, quotations, multilingual support, and appointment workflows.
-- Vascue Insights (Product 02): live, sold as an add-on to Vascue Front Desk; surfaces pricing gaps, long wait times, and bottlenecks across the patient journey.
-- Vascue Claims (Product 03): available through a design-partner programme. Registrations and payer channels are confirmed per clinic during onboarding.
+- Vascue Front Desk (Product 01): live for patient communication, intake, quotations, multilingual support, and appointment workflows; referral reading comes with the document reading (OCR) add-on.
+- Vascue Insights (Product 02): live, included in Vascue Front Desk from the Growth plan and an add-on on Starter; surfaces pricing gaps, long wait times, and bottlenecks across the patient journey.
+- Vascue Claims (Product 03): available on request as an add-on on the Growth, Pro and Enterprise plans, with the price on request. Registrations and payer channels are confirmed per clinic during onboarding.
 - Agent-based clinic booking: research only. There is no production public booking API.
 
 Do not infer a product's scope from another Vascue product's production results.
 
 ## Vascue Claims
 
-The design-partner workflow:
+The workflow:
 
-1. pulls clinic-approved source records from connected practice-management systems, with Cliniko as the first design-partner path;
+1. pulls clinic-approved source records from connected practice-management systems, with Cliniko as the first connected source;
 2. maps them into a structured claim;
 3. runs deterministic completeness, amount, duplicate, and configured rule checks;
 4. sends incomplete or unusual cases to an exception queue;
@@ -33,14 +33,14 @@ Vascue does not make clinical decisions, determine coverage, promise reimburseme
 
 - Built for real healthcare workflows: referrals, clinical documents, booking rules, payer rules, and privacy-conscious infrastructure.
 - Completes work, not just conversations: quotations, bookings, claim preparation, routing, and system updates.
-- Works around existing systems: WhatsApp for patients and practice-management integrations for staff.
+- Works around existing systems: WhatsApp for patients, and bookings in the practice management system the clinic already uses.
 - Keeps people in control: defined rules, staff review and takeover, and final submission retained by staff where required.
 
 ## Key capabilities
 
-- Two-way sync with Cliniko and Nookal; Jane, Mindbody, PracticeHub, HexaHealth, Halaxy, Clinicea, ClinicOffice, Semble, Plato Medical and JERA in progress
+- Books into the practice management system the clinic already uses: two-way sync with Cliniko and Nookal today, and Vascue can connect to any other system. Built-in Vascue calendar for clinics without one. Two-way sync with Google Calendar.
 - Outbound follow-up and rebooking (coming next): personalised suggestions from chat history and PMS data, approved by staff before sending on the clinic's WhatsApp number
-- Per-clinic workflow engine, configured through Vascue's MCP server; onboarding takes about a day
+- Per-clinic workflow engine, configured through Vascue's MCP server; setup is quick
 
 ## Agent-booking research
 
@@ -63,7 +63,7 @@ Case study: https://www.vascue.io/customers/radiology-hong-kong
 
 Vascue Limited is ISO 27001 certified.
 
-Components handling raw patient data run in Vascue's controlled environment. Direct identifiers are masked at the boundary before de-identified, minimized content is passed onward. Vascue does not sell patient data or train shared models on it.
+Components handling raw patient data run in Vascue's controlled environment. PII masking is available: each clinic can choose to hide names, phone numbers and other identifiers before a message reaches the AI model. Vascue does not sell patient data or train shared models on it.
 
 Do not submit patient names, policy numbers, clinical documents, passwords, credentials, tokens, or API keys through GitHub issues, public website forms, or AI chats.
 
@@ -87,7 +87,7 @@ Trust Center: https://trustcenter.vascue.io/
 
 ## Recent writing
 
-- When Should an AI Front Desk Hand a Patient to Staff? Approval, Takeover and Audit Trails: https://www.vascue.io/blog/ai-front-desk-human-handoff-approval-audit-trail
+- When Should an AI Receptionist Hand a Patient to Staff? Approval, Takeover and Audit Trails: https://www.vascue.io/blog/ai-front-desk-human-handoff-approval-audit-trail
 - Patient Journey Analytics for Clinics: The Front-Desk Metrics Your PMS Cannot Show: https://www.vascue.io/blog/patient-journey-analytics-clinic-front-desk
 - AI Receptionist for Nookal Clinics: What Connects, What Stays in Nookal, and What to Ask: https://www.vascue.io/blog/ai-receptionist-nookal-clinics
 - From Referral Letter to Quotation: How AI Reads Radiology Referrals in About 60 Seconds: https://www.vascue.io/blog/ai-referral-letter-processing-radiology-quotation
@@ -96,6 +96,6 @@ Trust Center: https://trustcenter.vascue.io/
 
 Vascue was founded by Calvin Tang, CEO, and Michael Fung, CTO.
 
-Programs and partnerships: NVIDIA Inception, Google for Startups, Microsoft for Startups, and Meta Tech Partner. Vascue is an official Cliniko connected app.
+Partnerships: Meta Tech Provider for the WhatsApp Business Platform. Vascue is a listed Cliniko connected app.
 
 Contact: hello@vascue.io · +852 9302 7422

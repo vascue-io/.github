@@ -2,7 +2,7 @@
 
 This repository contains Vascue's public GitHub organization profile and stable machine-readable company metadata.
 
-Vascue is an AI-native healthcare operations automation company. Vascue Front Desk and Vascue Insights are live; Vascue Claims is available through a design-partner programme. Agent-based clinic booking remains a research project, not a public production API.
+Vascue is the operational spine for healthcare, connecting patient communication, workflows, insights and claims across the systems providers already use. Vascue Front Desk and Vascue Insights are live; Vascue Claims is available on request as an add-on on the Growth, Pro and Enterprise plans. Agent-based clinic booking remains a research project, not a public production API.
 
 ## Contents
 

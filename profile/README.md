@@ -4,7 +4,7 @@
 
 **AI-native healthcare operations automation.**
 
-Operational Spine. Designed for Healthcare. Synapsed with AI.
+The operational spine for healthcare.
 
 [Website](https://www.vascue.io) · [Products](https://www.vascue.io/products) · [Claims overview](https://www.vascue.io/claims-automation.md) · [Claims FAQ](https://www.vascue.io/claims/faq) · [Live front-desk demo](https://www.vascue.io/phone-demo) · [Security](https://www.vascue.io/security) · [Blog](https://www.vascue.io/blog) · [LinkedIn](https://www.linkedin.com/company/vascue)
 
@@ -12,25 +12,25 @@ Operational Spine. Designed for Healthcare. Synapsed with AI.
 
 ---
 
-Vascue gives healthcare teams more time for care. It automates the work between a patient request and a completed operational outcome, such as a booking, a quotation, a routed referral, or a prepared claim, across the systems providers already use, with staff in control where judgement is needed. Three products run on one operational spine.
+Vascue is the operational spine for healthcare, connecting patient communication, workflows, insights and claims across the systems providers already use. It gives healthcare teams more time for care, automating the work between a patient request and a completed operational outcome, such as a booking, a quotation, a routed referral, or a prepared claim, with staff in control where judgement is needed. Three products run on one operational spine.
 
 ## Products
 
 ### 01 Vascue Front Desk: live
 
 - Answers patient enquiries and supports multilingual conversations around the clock, on WhatsApp
-- Reads referral letters and clinical documents, quotes from the fee schedule, and books appointments
-- Two-way sync with Cliniko (official connected app) and Nookal; Jane, Mindbody, PracticeHub, HexaHealth, Halaxy, Clinicea, ClinicOffice, Semble, Plato Medical and JERA in progress
+- Quotes from the fee schedule and books appointments; reads referral letters and clinical documents with the document reading (OCR) add-on
+- Books into the practice management system the clinic already uses: two-way sync with Cliniko (listed connected app) and Nookal today, and Vascue can connect to any other system; built-in Vascue calendar for clinics without one
 - Keeps staff able to review and take over any conversation
 - Coming next: personalised follow-up and rebooking suggestions from chat history and PMS data, approved by staff before they go out on the clinic's WhatsApp number
 
 ### 02 Vascue Insights: live
 
-An add-on to Vascue Front Desk. Each visit becomes a stream of operational events, so clinic and hospital managers can see pricing gaps, long wait times, and bottlenecks across the patient journey, and act on them.
+Included in Vascue Front Desk from the Growth plan, and an add-on on Starter. Each visit becomes a stream of operational events, so clinic and hospital managers can see pricing gaps, long wait times, and bottlenecks across the patient journey, and act on them.
 
-### 03 Vascue Claims: design-partner programme
+### 03 Vascue Claims: add-on, on request
 
-Vascue Claims is available through a design-partner programme. It turns connected practice-management records into source-linked claim drafts, applies deterministic checks, sends incomplete or unusual cases to staff, routes only staff-authorized claims through channels configured for each clinic, and tracks status and reconciliation. Registrations and payer channels are confirmed per clinic during onboarding.
+Vascue Claims is available on request as an add-on on the Growth, Pro and Enterprise plans. It turns connected practice-management records into source-linked claim drafts, applies deterministic checks, sends incomplete or unusual cases to staff, routes only staff-authorized claims through channels configured for each clinic, and tracks status and reconciliation. Registrations and payer channels are confirmed per clinic during onboarding.
 
 Vascue does not make clinical decisions, determine coverage, promise reimbursement, or submit a claim without the clinic's required authorization.
 
@@ -42,9 +42,9 @@ Vascue is researching how patient-authorized AI assistants could discover clinic
 
 - **Built for real healthcare workflows.** Referrals, clinical documents, booking rules, payer rules, and privacy-conscious infrastructure.
 - **Completes work, not just conversations.** Interprets requests and finishes defined operational work: quotations, bookings, claim preparation, routing, and system updates.
-- **Works around existing systems.** WhatsApp for patients and practice-management integrations for staff, so providers reduce manual handoffs without rebuilding their workflows.
+- **Works around existing systems.** WhatsApp for patients, and bookings in the practice management system the clinic already uses, so providers reduce manual handoffs without rebuilding their workflows.
 - **Keeps people in control.** Defined rules, staff review and takeover, and final submission retained by staff where required.
-- **Set up in about a day.** Each clinic's booking, quoting and escalation rules are encoded in Vascue's workflow engine through our MCP server.
+- **Set up quickly.** Each clinic's booking, quoting and escalation rules are encoded in Vascue's workflow engine through our MCP server.
 
 ## Production evidence
 
@@ -73,29 +73,29 @@ There is no production public booking or claims API today. Do not send patient i
 
 ## Who it is for
 
-- [Physiotherapy clinics](https://www.vascue.io/solutions/physiotherapy): front-desk workflows plus claims automation; Cliniko is the first design-partner path
+- [Physiotherapy clinics](https://www.vascue.io/solutions/physiotherapy): Vascue Front Desk plus claims automation; Cliniko is the first connected source for Vascue Claims
 - [Hospitals and departments](https://www.vascue.io/solutions/hospitals): patient communication and operations automation on privacy-first architecture
 - [Allied health](https://www.vascue.io/solutions/allied-health): operational support for multidisciplinary practices
 - [Cliniko](https://www.vascue.io/cliniko) and [Nookal](https://www.vascue.io/nookal) practices: Vascue Front Desk with two-way booking sync
 
 ## Security and privacy
 
-Vascue Limited is ISO 27001 certified. Components handling raw patient data run in Vascue's controlled environment, and direct identifiers are masked before de-identified, minimized content is passed onward. See the [security page](https://www.vascue.io/security), [Trust Center](https://trustcenter.vascue.io/), and this organization's [security policy](../SECURITY.md).
+Vascue Limited is ISO 27001 certified. Components handling raw patient data run in Vascue's controlled environment, and PII masking is available: each clinic can choose to hide names, phone numbers and other identifiers before a message reaches the AI model. See the [security page](https://www.vascue.io/security), [Trust Center](https://trustcenter.vascue.io/), and this organization's [security policy](../SECURITY.md).
 
 ## Founders
 
 - **Calvin Tang, CEO.** Former radiographer at St. Paul's Hospital, ex-SCMP engineer, and former Senior Project Manager at Animoca Brands.
 - **Michael Fung, CTO.** Former Hong Kong Hospital Authority technologist, AWS-certified with 10 years in IT, and co-founder of Tecky Academy.
 
-## Programs and partnerships
+## Partnerships
 
-NVIDIA Inception · Google for Startups · Microsoft for Startups · Meta Tech Partner
+Meta Tech Provider for the WhatsApp Business Platform
 
-Vascue is an official [Cliniko connected app](https://www.cliniko.com/connected-apps/vascue/).
+Vascue is a listed [Cliniko connected app](https://www.cliniko.com/connected-apps/vascue/).
 
 ## Recent writing
 
-- [When Should an AI Front Desk Hand a Patient to Staff? Approval, Takeover and Audit Trails](https://www.vascue.io/blog/ai-front-desk-human-handoff-approval-audit-trail)
+- [When Should an AI Receptionist Hand a Patient to Staff? Approval, Takeover and Audit Trails](https://www.vascue.io/blog/ai-front-desk-human-handoff-approval-audit-trail)
 - [Patient Journey Analytics for Clinics: The Front-Desk Metrics Your PMS Cannot Show](https://www.vascue.io/blog/patient-journey-analytics-clinic-front-desk)
 - [AI Receptionist for Nookal Clinics: What Connects, What Stays in Nookal, and What to Ask](https://www.vascue.io/blog/ai-receptionist-nookal-clinics)
 - [From Referral Letter to Quotation: How AI Reads Radiology Referrals in About 60 Seconds](https://www.vascue.io/blog/ai-referral-letter-processing-radiology-quotation)
